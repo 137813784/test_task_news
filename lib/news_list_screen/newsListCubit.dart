@@ -22,11 +22,9 @@ class HttpService {
   String everyNews = 'https://newsapi.org/v2/everything?q=Apple&from=2023-09-14&sortBy=popularity&apiKey=${apiKey()}';
   Future<void> getPosts() async {
     Dio? dio;
-    var response=
-    await dio?.get(everyNews);
-     print('$response');
+    var response = await dio?.get(everyNews);
+    print('$response');
   }
-
 
   // Future<List<User>> getPosts() async {
   //   dynamic res = await get(Uri.parse(everyNews));
