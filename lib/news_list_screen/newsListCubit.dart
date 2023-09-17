@@ -14,6 +14,7 @@ enum newsEventName {
 class HttpService {
   final String postsURL = "https://jsonplaceholder.typicode.com/posts";
   String everyNews = "https://newsapi.org/v2/everything?q=Apple&from=2023-09-14&sortBy=popularity&apiKey=API_KEY";
+  String apiKey ="43d9950f0103490b81e8cf6a64a95edd";
 
   // Future<List<User>> getPosts() async {
   //   dynamic res = await get(Uri.parse(everyNews));
